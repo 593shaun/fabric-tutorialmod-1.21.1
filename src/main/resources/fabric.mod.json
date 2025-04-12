@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "This is a tutorial mod by Treefugger following Kaupenjoe's youtube tutorials!",
+	"authors": [
+		"Treefugger", "Kaupenjoe"
+	],
+	"contact": {
+		"homepage": "https://kaupenjoe.net/",
+		"sources": "https://github.com/Tutorials-By-Kaupenjoe/fabric-tutorial-1.21.x"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.treefugger.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.treefugger.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.treefugger.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
