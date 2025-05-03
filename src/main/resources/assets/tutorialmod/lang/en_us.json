@@ -1,3 +1,12 @@
 {
-  "item.tutorialmod.ruby": "Ruby"
+  "item.tutorialmod.ruby": "Ruby",
+  "item.tutorialmod.raw_tin": "Raw Tin",
+  "item.tutorialmod.tin_ingot": "Tin Ingot",
+
+  "block.tutorialmod.nether_ruby_ore": "Ruby Ore",
+  "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.tin_ore": "Tin Ore",
+  "block.tutorialmod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.tutorialmod.tin_block": "Block of Tin"
 }

@@ -11,16 +11,20 @@ import net.treefugger.tutorialmod.TutorialMod;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.info("registering mod items for tutorialmod");
+        TutorialMod.LOGGER.info("registering mod items for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RUBY);
+            entries.add(RAW_TIN);
+            entries.add(TIN_INGOT);
         });
     }
 }
