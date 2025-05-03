@@ -8,5 +8,7 @@
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.tin_ore": "Tin Ore",
   "block.tutorialmod.deepslate_tin_ore": "Deepslate Tin Ore",
-  "block.tutorialmod.tin_block": "Block of Tin"
+  "block.tutorialmod.tin_block": "Block of Tin",
+
+  "itemgroup.tutorialmod.ruby_red_items": "Ruby Red"
 }
