@@ -19,13 +19,17 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_RUBY_ORE);
                         entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModItems.BRONZE_CHISEL);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
 
                     })).build());
 

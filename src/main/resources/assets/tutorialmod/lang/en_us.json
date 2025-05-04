@@ -2,6 +2,8 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_tin": "Raw Tin",
   "item.tutorialmod.tin_ingot": "Tin Ingot",
+  "item.tutorialmod.bronze_ingot": "Bronze Ingot",
+  "item.tutorialmod.bronze_chisel": "Bronze Chisel",
 
   "block.tutorialmod.nether_ruby_ore": "Ruby Ore",
   "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
@@ -9,6 +11,8 @@
   "block.tutorialmod.tin_ore": "Tin Ore",
   "block.tutorialmod.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.tutorialmod.tin_block": "Block of Tin",
+  "block.tutorialmod.bronze_block": "Block of Bronze",
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "itemgroup.tutorialmod.ruby_red_items": "Ruby Red"
 }
