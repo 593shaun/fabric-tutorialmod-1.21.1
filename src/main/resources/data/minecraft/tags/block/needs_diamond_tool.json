@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:nether_ruby_ore",
+    "tutorialmod:end_ruby_ore",
+    "tutorialmod:ruby_block"
+  ]
+}

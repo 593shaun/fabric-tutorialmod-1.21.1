@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:tin_ore",
+    "tutorialmod:deepslate_tin_ore",
+    "tutorialmod:nether_ruby_ore",
+    "tutorialmod:end_ruby_ore",
+    "tutorialmod:tin_block",
+    "tutorialmod:ruby_block"
+  ]
+}
